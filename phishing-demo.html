@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Security Awareness Demo</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 100px;
+            background: #f2f2f2;
+        }
+
+        .box {
+            background: white;
+            padding: 30px;
+            margin: auto;
+            width: 400px;
+            border-radius: 12px;
+        }
+
+        button {
+            padding: 12px 25px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+    <h1>🔐 DITO TINGIN</h1>
+
+    <p>Your account requires verification.</p>
+
+    <button onclick="showWarning()">Verify Account</button>
+
+    <p id="warning"></p>
+</div>
+
+<script>
+function showWarning() {
+    document.getElementById("warning").innerHTML =
+        "⚠️ SHET SHET NAKITA AKO<br><br>" +
+        "NAPASOK KO ACCOUNT MO BOIII.<br>" +
+        "PUTA DAMING BOLD SHYTT.";
+}
+</script>
+
+</body>
+</html>
